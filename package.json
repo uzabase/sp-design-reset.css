@@ -1,0 +1,18 @@
+{
+    "name": "@sp-design/recet.css",
+    "version": "1.0.0",
+    "description": "SPEEDA Design System Reset CSS",
+    "main": "src/reset.css",
+    "keywords": [
+    "css",
+    "reset",
+    "style",
+    "web"
+    ],
+    "author": "UZABASE Inc.",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/uzabase/sp-design-reset.css.git"
+    }
+}
