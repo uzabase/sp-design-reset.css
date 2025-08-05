@@ -122,6 +122,13 @@ section {
     display: block;
 }
 
+/* hidden属性による要素の非表示制御
+   - 通常のhidden属性は完全に非表示にする
+   - hidden="until-found"は検索機能で発見可能な状態を保持するため除外 */
+[hidden]:not([hidden='until-found']) {
+    display: none !important;
+}
+
 /* テキスト系要素に文章の折り返し指定 */
 body, article, p, span, div, li, td, th, dt, dd, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: anywhere;
