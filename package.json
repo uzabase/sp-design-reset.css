@@ -1,6 +1,6 @@
 {
     "name": "@sp-design/reset.css",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "SPEEDA Design System Reset CSS",
     "main": "src/reset.css",
     "keywords": [
