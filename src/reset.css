@@ -123,8 +123,12 @@ section {
 }
 
 /* hidden属性による要素の非表示制御
-   - 通常のhidden属性は完全に非表示にする
-   - hidden="until-found"は検索機能で発見可能な状態を保持するため除外 */
+   - HTML標準のhidden属性を使用した要素を確実に非表示にする
+   - display: none !importantで他のスタイルより優先的に適用
+   - hidden="until-found"は例外として除外：
+     * ブラウザの検索機能（Ctrl+F等）で発見可能な状態を保持
+     * 検索結果に一致した際に自動的に表示される動作を実現
+     * 参考: https://developer.mozilla.org/docs/Web/HTML/Global_attributes/hidden */
 [hidden]:not([hidden='until-found']) {
     display: none !important;
 }
