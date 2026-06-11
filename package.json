@@ -1,13 +1,18 @@
 {
-    "name": "@sp-design/reset.css",
+    "name": "@uzabase/reset.css",
     "version": "1.0.2",
-    "description": "SPEEDA Design System Reset CSS",
+    "description": "Speeda Design System Reset CSS",
     "main": "src/reset.css",
+    "files": [
+        "LICENSE",
+        "README.md",
+        "src/reset.css"
+    ],
     "keywords": [
-    "css",
-    "reset",
-    "style",
-    "web"
+        "css",
+        "reset",
+        "style",
+        "web"
     ],
     "author": "UZABASE, Inc",
     "license": "MIT",
