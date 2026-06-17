@@ -2,6 +2,7 @@
     "name": "@uzabase/reset.css",
     "version": "1.0.2",
     "description": "Speeda Design System Reset CSS",
+    "homepage": "https://github.com/uzabase/sp-design-reset.css#readme",
     "main": "src/reset.css",
     "files": [
         "LICENSE",
@@ -14,10 +15,10 @@
         "style",
         "web"
     ],
-    "author": "UZABASE, Inc",
+    "author": "Uzabase, Inc.",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/uzabase/sp-design-reset.css.git"
+        "url": "git@github.com:uzabase/sp-design-reset.css.git"
     }
 }
